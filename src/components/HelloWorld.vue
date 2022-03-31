@@ -9,8 +9,9 @@ const count = ref(0)
 </script>
 
 <template>
-<div>
+<dev>
   <h1>{{ msg }}</h1>
+
   <p>
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
@@ -27,12 +28,13 @@ const count = ref(0)
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
-  <p>Edit <code>components/HelloWorld.vue</code> to test hot module replacement.
+  <p>
+    Edit
+    <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
-</div>
+</dev>
 </template>
 
-</script>
 <style scoped>
 a {
   color: #42b983;
